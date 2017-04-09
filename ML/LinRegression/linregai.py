@@ -39,7 +39,7 @@ for M in range(1,7):
 Mdegree = range(1,7)
 plt.plot(Mdegree,rmseTrain,color="red",linestyle="-",label="rmseTrain")
 plt.plot(Mdegree,rmseTest,color="blue",linestyle="--",label="rmseTest")
-plt.xlabel("Order of the polynomial")
+plt.xlabel("Order of polynomial")
 plt.ylabel("RMSE")
 plt.legend(loc="upper left",frameon=False)
 plt.show()
